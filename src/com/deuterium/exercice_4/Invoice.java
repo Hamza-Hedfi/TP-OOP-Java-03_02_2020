@@ -1,9 +1,11 @@
 package com.deuterium.exercice_4;
 
-public class Invoice {
-    private InvoiceItem[] inv;
+import java.util.ArrayList;
 
-    public Invoice(int lines) {
-        this.inv = new InvoiceItem[lines];
+public class Invoice {
+    private ArrayList<InvoiceItem> inv;
+
+    public Invoice() {
+        this.inv = new ArrayList<>();
     }
 }
