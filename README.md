@@ -1,7 +1,7 @@
 # TP OOP (JAVA) 03/02/2020
 <hr>
 
-### Exercice 1 __ Class Circle
+### Exercice 1 __ Circle
 <h4>Output</h4>
 
 ```console
@@ -19,5 +19,29 @@ Initiating via other circle------------------
 Default radius: 5.6
 Area: 98.5203456165759
 Circumference: 35.18583772020568
+---------------------------------------------
+```
+
+### Exercice 2 __ Rectangle
+<h4>Output</h4>
+
+```console
+---------------------------------------------
+Width: 1.0
+Length: 1.0
+Area: 1.0
+Perimeter: 4.0
+
+Initiating with custom values----------------
+Width: 6.5874
+Length: 5.143
+Area: 33.878997802734375
+Perimeter: 23.460800170898438
+
+Initiating via other rectangle----------------
+Width: 6.5874
+Length: 5.143
+Area: 33.878997802734375
+Perimeter: 23.460800170898438
 ---------------------------------------------
 ```

@@ -17,6 +17,11 @@ public class Rectangle {
         this.width = width;
     }
 
+    public Rectangle(Rectangle other) {
+        width = other.width;
+        length = other.length;
+    }
+
     public float getLength() {
         return length;
     }
