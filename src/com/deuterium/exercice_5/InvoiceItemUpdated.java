@@ -8,7 +8,10 @@ public class InvoiceItemUpdated {
 
     public InvoiceItemUpdated(String id, Product product, int qty, double unitPrice) {
         this.id = id;
-        this.product = product;
+
+        if (product != null) this.product = product;
+        else System.out.printf("Passer une produit SVP");
+
         this.qty = qty;
         this.unitPrice = unitPrice;
     }
