@@ -3,6 +3,7 @@
 
 ### Exercice 1 __ Class Circle
 <h4>Output</h4>
+
 ```console
 ---------------------------------------------
 Default radius: 1.0
