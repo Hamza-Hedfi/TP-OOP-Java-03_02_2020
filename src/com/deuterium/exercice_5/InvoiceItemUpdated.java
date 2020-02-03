@@ -17,10 +17,6 @@ public class InvoiceItemUpdated {
         return id;
     }
 
-    public String getDesc() {
-        return desc;
-    }
-
     public int getQty() {
         return qty;
     }
@@ -45,7 +41,6 @@ public class InvoiceItemUpdated {
     public String toString() {
         return "InvoiceItem{" +
                 "id='" + id + '\'' +
-                ", desc='" + desc + '\'' +
                 ", qty=" + qty +
                 ", unitPrice=" + unitPrice +
                 '}';
